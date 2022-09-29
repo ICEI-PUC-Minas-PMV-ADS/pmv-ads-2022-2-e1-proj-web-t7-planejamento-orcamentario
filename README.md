@@ -1,10 +1,10 @@
 # Planejamento Orçamentário
 
-Análise e Desenvolvimento de Sistemas
+`Análise e Desenvolvimento de Sistemas`
 
 `DISCIPLINA`
 
-1º Semestre
+`1º Semestre`
 
 # (Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.)
 Nosso projeto foi feito pensando nos Microempreendedores Individuais(MEI), criando uma aplicação feita para melhorar o gerenciamento financeiro dessas pessoas.
