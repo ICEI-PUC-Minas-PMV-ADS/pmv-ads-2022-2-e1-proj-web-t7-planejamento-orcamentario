@@ -17,9 +17,9 @@ Nosso projeto foi feito pensando nos Microempreendedores Individuais(MEI), crian
 * Milleny
 * Lucas 
 
-## Marcos Kutova
+## Orientador
 
-* Nome completo do professor 1
+* Marco Kutova
 
 ## Instruções de utilização
 
