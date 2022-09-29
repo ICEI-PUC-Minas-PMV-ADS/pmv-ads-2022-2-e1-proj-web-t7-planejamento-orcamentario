@@ -18,7 +18,7 @@ O projeto em desenvolvimento tem como principal foco os Microempreendedores Indi
 
 ## Orientador
 
-* Marco Kutova
+* Marcos Andre Silveira Kutova
 
 ## Instruções de utilização
 
