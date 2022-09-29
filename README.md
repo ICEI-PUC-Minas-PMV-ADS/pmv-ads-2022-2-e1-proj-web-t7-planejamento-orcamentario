@@ -2,12 +2,11 @@
 
 `Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
 `1º Semestre`
 
-# (Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.)
-Nosso projeto foi feito pensando nos Microempreendedores Individuais(MEI), criando uma aplicação feita para melhorar o gerenciamento financeiro dessas pessoas.
+O projeto em desenvolvimento tem como principal foco os Microempreendedores Individuais(MEI), criando uma aplicação feita para melhorar o gerenciamento financeiro dessas pessoas.
 
 
 ## Integrantes
