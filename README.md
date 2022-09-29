@@ -13,8 +13,8 @@ O projeto em desenvolvimento tem como principal foco os Microempreendedores Indi
 
 * Thiago Gonçalves Chagas
 * Daniel Felipe da Fonseca
-* Milleny
-* Lucas 
+* Milleny Ellen Jodas Ferreira
+* Lucas Bebiano Xavier
 
 ## Orientador
 
