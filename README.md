@@ -1,21 +1,23 @@
-# TÍTULO DO PROJETO
+# Planejamento Orçamentário
 
-`CURSO`
+Análise e Desenvolvimento de Sistemas
 
 `DISCIPLINA`
 
-`SEMESTRE`
+1º Semestre
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+# (Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.)
+Nosso projeto foi feito pensando nos Microempreendedores Individuais(MEI), criando uma aplicação feita para melhorar o gerenciamento financeiro dessas pessoas.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Thiago Gonçalves Chagas
+* Daniel Felipe da Fonseca
+* Milleny
+* Lucas 
 
-## Orientador
+## Marcos Kutova
 
 * Nome completo do professor 1
 
