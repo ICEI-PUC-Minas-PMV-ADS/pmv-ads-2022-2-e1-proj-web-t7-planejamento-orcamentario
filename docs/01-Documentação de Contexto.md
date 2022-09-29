@@ -13,11 +13,6 @@ como é o caso do (SAP ERP 2022) que é um sistema de gestão de processos empre
 
 Os microempreendedores individuais têm dificuldade em montar orçamentos simplificados para seus trabalhos.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 A solução proposta é a criação de uma ferramenta web intuitiva e simples que permita de forma rápida planejar as despesas e as receitas dos empresários no segmento MEI, com o intuito de gerar um orçamento para um projeto específico, rompendo a barreira da linguagem e facilitando o uso através de informações gráficas e universais. A opção da inserção gráfica do lucro final tornará mais simples a confecção de um orçamento. 
@@ -30,23 +25,10 @@ Inclusão de dados de forma simples;
 Criação de Categorias pelo usuário;
 Informações Gráficas e figuras facilmente identificáveis;
 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 Ao saber que 30% dos microempreendedores individuais dentro de 5 anos acabam fechando, por vários motivos como: começar sem ter um plano de negócio, falta de organização financeira, não separar as finanças da empresa com as finanças pessoais, não pagar a DA, não precificar o produto ou serviço corretamente. “A inovação e a tecnologia tendem a ser os pilares do empreendedorismo para os próximos anos. Ou seja, a digitalização de processos e novos negócios digitais devem ditar um novo mercado, cada vez mais conectado e acessível” (acessado em:  https://santandernegocioseempresas.com.br data: 21-09-22 às 09:58). Em meio às várias dificuldades, o aprendizado da gestão financeira no seu empreendimento permite um melhor controle de suas próprias dívidas e uma maior liberdade financeira.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 O Microempreendedor e o Profissional autônomo que trabalham sozinhos e que eventualmente têm baixa escolaridade são o foco do desenvolvimento desse projeto.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
