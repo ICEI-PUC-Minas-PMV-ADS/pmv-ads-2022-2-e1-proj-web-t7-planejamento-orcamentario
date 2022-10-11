@@ -1,8 +1,8 @@
 # Referências
 
 A lista a seguir traz as referências utilizadas nesse trabalho. São elas: 
-> - Barreto, Luis. Tem sua fala citada na noticia:**Brasil está no topo do ranking mundial de empreendedorismo**, 2017, https://cei.ufg.br/n/85351-brasil-esta-no-topo-do-ranking-mundial-de-empreendedorismo Acessado em 17/09/2022 
-> - Melles, Carlos. Tem sua fala citada na noticia:**Sebrae: MEIs têm a maior taxa de mortalidade entre empresas**, 2021, https://olhardigital.com.br/2021/06/28/pro/sebrae-meis-tem-a-maior-taxa-de-mortalidade-entre-empresas Acessado em 17/09/2022.
+> - Barreto, Luis. Tem sua fala citada na noticia: **Brasil está no topo do ranking mundial de empreendedorismo**, 2017, https://cei.ufg.br/n/85351-brasil-esta-no-topo-do-ranking-mundial-de-empreendedorismo Acessado em 17/09/2022 
+> - Melles, Carlos. Tem sua fala citada na noticia: **Sebrae: MEIs têm a maior taxa de mortalidade entre empresas**, 2021, https://olhardigital.com.br/2021/06/28/pro/sebrae-meis-tem-a-maior-taxa-de-mortalidade-entre-empresas Acessado em 17/09/2022.
 > -      
 > - SAP. O que é SAP. 2022. Disponível em:  https://www.sap.com/brazil/about/company/what-is-sap.html. Acessado em 17/09/2022.
 > - Treasy. O que é Treasy. 2022. Disponível em: https://www.sap.com/brazil/about/company/what-is-sap.html. Acessado em: 17/09/2022.
