@@ -11,10 +11,12 @@ O projeto em desenvolvimento tem como principal foco os Microempreendedores Indi
 
 ## Integrantes
 
-* Thiago Gonçalves Chagas
 * Daniel Felipe da Fonseca
-* Milleny Ellen Jodas Ferreira
+* Guilherme Dcarlo Pires Carneiro
+* Iane Victoria dos Santos Oliveira
 * Lucas Bebiano Xavier
+* Milleny Ellen Jodas Ferreira
+* Thiago Gonçalves Chagas
 
 ## Orientador
 
