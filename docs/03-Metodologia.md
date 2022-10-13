@@ -43,10 +43,10 @@ Será utilizado pela equipe a metodologia ágil SCRUM para todo o desenvolviment
 
 A divisão da equipe será:
 
->- `Scrum Master:`
-  >- Thiago
->
->Product Owner: Milleny
+- `Scrum Master:`
+  - Thiago
+> **Product Owner:**
+   -Milleny
 
 >Desenvolvedores: Daniel Felipe da Fonseca;
   >-s
