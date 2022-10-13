@@ -39,7 +39,18 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Será utilizado pela equipe a metodologia ágil SCRUM para todo o desenvolvimento do projeto.
+
+A divisão da equipe será:
+
+>- Scrum Master: Thiago
+>
+>Product Owner: Milleny
+
+>Desenvolvedores: Daniel Felipe da Fonseca;
+  >-s
+  >a
+>Apresente a divisão de papéis entre os membros do grupo.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
