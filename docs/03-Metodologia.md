@@ -43,15 +43,16 @@ Será utilizado pela equipe a metodologia ágil SCRUM para todo o desenvolviment
 
 A divisão da equipe será:
 
-- `Scrum Master:`
-  - Thiago
-> **Product Owner:**
-   -Milleny
-
->Desenvolvedores: Daniel Felipe da Fonseca;
-  >-s
-  >a
->Apresente a divisão de papéis entre os membros do grupo.
+- **Scrum Master:**
+   -Thiago;
+- **Product Owner:**
+   -Milleny;
+-**Desenvolvedores:**
+   -Daniel Felipe da Fonseca;
+   -Guilherme;
+   -Iane Victória;
+   -Lucas.
+  
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
