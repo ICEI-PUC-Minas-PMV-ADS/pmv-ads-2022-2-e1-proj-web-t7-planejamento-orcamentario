@@ -71,6 +71,19 @@ A divisão da equipe será:
 
 ### Processo
 
+Para organização de cada etapa das tarefas e o status da mesma utilizamos as descrições abaixo:
+
+● Backlog : recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+
+● A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+
+● Em andamento: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+
+● Concluído: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
+O quadro kanban do grupo foi desenvolvido no software Trello está disponível através do link .....
+
+
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
  
 > **Links Úteis**:
@@ -83,15 +96,12 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código - Visual Studio Code.
+- Ferramentas de comunicação - WhatsApp, Microsoft Teams e Discordy
+- Ferramenta de desenho de tela - MarvelApp ou Figma (DEFINIR)
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+O VIsual Studio Code foi escolhido porque ele possui uma integração com o
+GitHub. Devido a facilitar a comunicação com professor e a familiaridade de acesso pelos alunos as ferramentas de comunicação WhatsApp, Microsoft Teams e Discordy foram utilizadas no processo de desenvolvimento deste projeto. Por fim, para criar os wireframes utilizamos a ferramenta Figma OU MarvelApp por melhor ja termos conhecimento da funcionabilidade da mesma, com isto atendendo as necessidades da nossa solução.
 
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
