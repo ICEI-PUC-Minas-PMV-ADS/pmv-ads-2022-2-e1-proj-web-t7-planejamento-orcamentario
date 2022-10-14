@@ -5,16 +5,11 @@
 Os requisitos e as personas apresentadas têm como base entrevistas e experiência pessoal/ profissional dos integrantes da equipe, tendo em vista se tratar de uma proposta que visa solucionar o problema de uma categoria com tamanha abrangência não foi necessário simular uma situação, todos os requisitos foram listados como necessidade real do dia a dia desses profissionais. Entretanto as personas são apenas representações gráficas.
 
 ## Personas
-#### 1 - Pedro Paulo
-Pedro Paulo tem 26 anos, possui o ensino superior sendo recém-formado em arquitetura e trabalha de forma autônoma. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-Ele possui o costume de realizar pagamentos com o cartão de crédito, porém sem realizar parcelas, e só utiliza de bancos digitais.
-O seu maior obstáculo é a falta de experiência no mercado de trabalho.
 
-#### 2 - Antônio Gomes
-Antônio Gomes tem 50 anos, possui o ensino médio incompleto, é autônomo e trabalha como pedreiro, pintor e gesseiro. É torcedor do flamengo e gosta de fazer um churrasco com a família no final de semana. 
-Antônio possui alguns hábitos financeiros considerados obsoleto, como fazer uso de cheque, utilizar apenas de bancos físicos e guardar dinheiro na poupança.
-Ele pretende montar uma equipe de trabalho, mas encontra algumas dificuldades como o prejuízo ou pouco lucro nas suas empreitadas.
-
+|Nome | Informações pessoais | Hábitos Financeiros | Hobbies | Frustrações | Motivações |
+|-----|----------------------|---------------------|---------|------------|------------|
+|Pedro Paulo | Tem 26 anos, possui o ensinsendo recém-formado em arquitetura e trabalha de forma autônoma. | Possui o costume de realizar pagamentos com o cartão de crédito, porém sem realizar parcelas, e só utiliza de bancos digitais. | Viajar, conhecer lugares novos | Seu maior obstáculo é a falta de experiência no mercado de trabalho | Desenvolvimento Profissional |
+| Antônio Gomes | Tem 50 anos, possui o ensino médio incompleto, é autônomo e trabalha como pedreiro, pintor e gesseiro | Ainda faz uso de cheque e utiliza apenas bancos físicos, além de guardar dinheiro na poupança | É torcedor do flamengo e gosta de fazer um churrasco com a família no final de semana | Prejuízos ou pouco lucro nas suas empreitadas | Pretende montar uma equipe de trabalho |
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
