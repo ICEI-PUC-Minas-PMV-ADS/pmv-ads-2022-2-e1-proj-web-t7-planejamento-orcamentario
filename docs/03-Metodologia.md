@@ -7,13 +7,12 @@ Neste Projeto iremos utilizar a metodologia mostrada no quadro abaixo:
 
 |Ambiente                        | Plataforma            |Link de Acesso                                           |
 |--------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Documentos do Projeto           |Google Docs              |https://docs.google.com/document/d/1f8Kvf9SV5Pu5utqDclSjAaW8lw1zZzuT3ninZhLB5cI/edit#|
+|Documentos do Projeto           |Google Docs              | https://docs.google.com/document/d/1UFvQ2Gaslp388uisy9AIyJHnNrSWEKNk/edit?usp=sharing&ouid=104664687155015801045&rtpof=true&sd=true |
 |Repositório de Código Fonte      |Git Hub                |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario#|
-|Projeto de Interface e wireframes |MarvelApp                  |INSERIR O LINK                                                                        |
+|Projeto de Interface e wireframes |Figma                  |https://www.figma.com/file/p2jHwdLS4o9N20C0ni6ci4/Untitled-(Copy)?node-id=243%3A1     |
 |Gerenciamento de Projeto (KANBAN)         |GitHub Projects             |   https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/166              |
 
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
 ## Controle de Versão
 
@@ -35,8 +34,6 @@ etiquetas:
 - `bug`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
 ## Gerenciamento de Projeto
 
@@ -60,33 +57,24 @@ A divisão da equipe será:
 
 Para organização de cada etapa das tarefas e o status da mesma utilizamos as descrições abaixo:
 
-● Backlog : recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+- `Backlog:` recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 
-● A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+- `A fazer:` Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
 
-● Em andamento: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+- `Em andamento:` Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 
-● Concluído: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+- `Test:` Visa testar e verificar se o software consegue entregar corretamente tudo que ele propõe.
 
-O quadro kanban do grupo foi desenvolvido no software Trello está disponível através do link .....
+-  `Concluído:` Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
-
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código - Visual Studio Code.
-- Ferramentas de comunicação - WhatsApp, Microsoft Teams e Discordy
-- Ferramenta de desenho de tela - MarvelApp ou Figma (DEFINIR)
+- `Editor de código:` Visual Studio Code.
+- `Ferramentas de comunicação:` WhatsApp, Microsoft Teams e Discord.
+- `Ferramenta de desenho de tela:` Figma.
 
 O VIsual Studio Code foi escolhido porque ele possui uma integração com o
-GitHub. Devido a facilitar a comunicação com professor e a familiaridade de acesso pelos alunos as ferramentas de comunicação WhatsApp, Microsoft Teams e Discordy foram utilizadas no processo de desenvolvimento deste projeto. Por fim, para criar os wireframes utilizamos a ferramenta Figma OU MarvelApp por melhor ja termos conhecimento da funcionabilidade da mesma, com isto atendendo as necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+GitHub. Devido a facilitar a comunicação com professor e a familiaridade de acesso pelos alunos as ferramentas de comunicação WhatsApp, Microsoft Teams e Discord foram utilizadas no processo de desenvolvimento deste projeto. Por fim, para criar os wireframes utilizamos a ferramenta Figma por melhor já termos conhecimento da funcionabilidade da mesma, com isto atendendo as necessidades da nossa solução.
