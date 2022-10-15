@@ -44,14 +44,14 @@ Será utilizado pela equipe a metodologia ágil SCRUM para todo o desenvolviment
 A divisão da equipe será:
 
 - `SCRUM MASTER:`
-   - Thiago;
+   - Thiago Gonçalves Chagas;
 - `PRODUCT OWNER:`
-   - Milleny;
+   - Milleny Ellen Jodas Ferreira;
 - `DESENVOLVEDORES:`
    - Daniel Felipe da Fonseca;
-   - Guilherme;
-   - Iane Victória;
-   - Lucas.
+   - Guilherme Dcarlo Pires Carneiro;
+   - Iane Victoria dos Santos Oliveira;
+   - Lucas Bebiano Xavier.
 
 ### Processo
 
