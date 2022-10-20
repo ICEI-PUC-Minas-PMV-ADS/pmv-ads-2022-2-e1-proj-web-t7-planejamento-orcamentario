@@ -53,21 +53,6 @@ A divisão da equipe será:
    - Iane Victoria dos Santos Oliveira;
    - Lucas Bebiano Xavier.
 
-### Processo
-
-Para organização de cada etapa das tarefas e o status da mesma utilizamos as descrições abaixo:
-
-- `Backlog:` recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
-
-- `A fazer:` Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
-
-- `Em andamento:` Quando uma tarefa tiver sido iniciada, ela é movida para cá.
-
-- `Test:` Visa testar e verificar se o software consegue entregar corretamente tudo que ele propõe.
-
--  `Concluído:` Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
-
-
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
@@ -78,3 +63,18 @@ As ferramentas empregadas no projeto são:
 
 O VIsual Studio Code foi escolhido porque ele possui uma integração com o
 GitHub. Devido a facilitar a comunicação com professor e a familiaridade de acesso pelos alunos as ferramentas de comunicação WhatsApp, Microsoft Teams e Discord foram utilizadas no processo de desenvolvimento deste projeto. Por fim, para criar os wireframes utilizamos a ferramenta Figma por melhor já termos conhecimento da funcionabilidade da mesma, com isto atendendo as necessidades da nossa solução.
+
+### Processo
+
+Para organização de cada etapa das tarefas e o status da mesma utilizamos as descrições abaixo:
+
+- `Backlog do Produto:` recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+
+- `A fazer:` Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+
+- `Em andamento:` Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+
+- `Test:` Visa testar e verificar se o software consegue entregar corretamente tudo que ele propõe.
+
+-  `Concluído:` Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
