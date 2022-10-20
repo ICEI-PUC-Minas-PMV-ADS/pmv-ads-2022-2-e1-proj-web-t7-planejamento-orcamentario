@@ -69,6 +69,7 @@ GitHub. Devido a facilitar a comunicação com professor e a familiaridade de ac
 Para organização de cada etapa das tarefas e o status da mesma utilizamos as descrições abaixo:
 
 - `Backlog do Produto:` recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+- *Documentação de Contexto*
 
 - `A fazer:` Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
 
