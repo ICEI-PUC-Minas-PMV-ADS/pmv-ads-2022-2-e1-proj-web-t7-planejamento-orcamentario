@@ -15,7 +15,7 @@ Os microempreendedores individuais têm dificuldade em montar orçamentos simpli
 
 ## Objetivos
 
-A solução proposta é a criação de uma ferramenta web intuitiva e simples que permita de forma rápida planejar as despesas e as receitas dos empresários no segmento MEI, com o intuito de gerar um orçamento para um projeto específico, rompendo a barreira da linguagem e facilitando o uso através de informações gráficas e universais. A opção da inserção gráfica do lucro final tornará mais simples a confecção de um orçamento. 
+A solução proposta é a criação de uma ferramenta web intuitiva e simples que permita de forma rápida inserir ou editar materiais/itens dos empresários no segmento MEI, com o intuito de gerar um orçamento para um projeto específico, rompendo a barreira da linguagem e facilitando o uso através de informações gráficas e universais. A opção da visualilzação gráfica do orçamento final, tornará mais simples o entendimento da distribuição de valores em um orçamento. 
 
 Alguns pontos chaves devem ser ressaltados logo no início da sua concepção, mais que uma lista de requisitos, eles fazem parte do “partido do projeto” são eles:
 
