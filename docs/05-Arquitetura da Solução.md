@@ -8,7 +8,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 Nesta seção são apresentados os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
 
-![Diagrama de Componentes](img/arquitetura-da-solução.png)
+<center>![Diagrama de Componentes](img/arquitetura-da-solução.png)</center>
 <center>Figura 1 - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
