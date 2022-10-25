@@ -1,7 +1,7 @@
 # Introdução
 
 Nos dias de hoje vivemos um cenário de crescimento exponencial do empreendedorismo no Brasil.
-“Quando comparado a países que compõem o BRICS, o Brasil é a nação com a maior taxa de empreendedorismo, ficando quase oito pontos percentuais à frente da China, com uma taxa de 26,7%” (Barreto, 2017).
+“Quando comparado a países que compõem o BRICS, o Brasil é a nação com a maior taxa de empreendedorismo, ficando quase oito pontos percentuais à frente da China, com uma taxa de 26,7%” (#Barreto, 2017).
 Em um País onde 71% das novas empresas do mercado iniciam devido a oportunidades de negócio e não a necessidade propriamente dita, nos deparamos com uma alta taxa de mortalidade das empresas. 
 De acordo com o Serasa Experian nasce um MEI a cada 2 (dois) segundos, entretanto 30% fecham em menos de 5 (cinco) anos.
 "Quando avaliamos a realidade da maioria dos MEI, a pesquisa mostra que, nesse segmento, há maior proporção de pessoas que estavam desempregadas antes de abrir o próprio negócio e que, por isso, não tiveram condições de se capacitar adequadamente e aprimorar a gestão" Melles, 2021. 
