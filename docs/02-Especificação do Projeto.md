@@ -18,8 +18,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Antônio Gomes | ter facilidade controlar os orçamentos | para não perder o controle do dinheiro |
-|Antônio Gomes | ter visão sintética do itens de orçamento feitos | para uma melhor interpretação das informações |
+|Antônio Gomes | ter facilidade de criar e controlar os orçamentos | para não perder o controle do dinheiro |
+|Antônio Gomes | ter visão sintética e emitir os itens de orçamento feitos | para uma melhor interpretação das informações |
 |Pedro Paulo | Inserir valores padrões em um caderno para consultas posteriores | para uma maior agilidade no dia a dia. |
 |Pedro Paulo | disponibilizar documento comprovando o serviço executado | para comprovar a legalidade das vendas e contribuir para uma boa reputação do seu negócio |
 
