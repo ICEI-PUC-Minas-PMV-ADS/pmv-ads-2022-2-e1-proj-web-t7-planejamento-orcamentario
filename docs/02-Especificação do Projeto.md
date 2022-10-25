@@ -9,6 +9,8 @@ Os requisitos e as personas apresentadas têm como base entrevistas e experiênc
 
 ![new-personas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/Arquiteto.png?raw=true)
 
+![new-personas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/Pedreiro.png?raw=true)
+
 |Nome | Informações pessoais | Hábitos Financeiros | Hobbies | Frustrações | Motivações |
 |-----|----------------------|---------------------|---------|------------|------------|
 |Pedro Paulo | Tem 26 anos, possui o ensino superior completo, sendo recém-formado em arquitetura e trabalha de forma autônoma. | Possui o costume de realizar pagamentos com o cartão de crédito, porém sem realizar parcelas, e só utiliza de bancos digitais. | Viajar, conhecer lugares novos | Seu maior obstáculo é a falta de experiência no mercado de trabalho | Desenvolvimento Profissional |
