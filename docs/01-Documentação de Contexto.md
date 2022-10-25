@@ -27,7 +27,7 @@ Informações Gráficas e figuras facilmente identificáveis;
 
 ## Justificativa
 
-Ao saber que 30% dos microempreendedores individuais dentro de 5 anos acabam fechando, por vários motivos como: começar sem ter um plano de negócio, falta de organização financeira, não separar as finanças da empresa com as finanças pessoais, não pagar a DA, não precificar o produto ou serviço corretamente. “A inovação e a tecnologia tendem a ser os pilares do empreendedorismo para os próximos anos. Ou seja, a digitalização de processos e novos negócios digitais devem ditar um novo mercado, cada vez mais conectado e acessível” Santander, 2022. Em meio às várias dificuldades, o aprendizado da gestão financeira no seu empreendimento permite um melhor controle de suas próprias dívidas e uma maior liberdade financeira.
+Ao saber que 30% dos microempreendedores individuais dentro de 5 anos acabam fechando, por vários motivos como: começar sem ter um plano de negócio, falta de organização financeira, não separar as finanças da empresa com as finanças pessoais, não pagar a DA, não precificar o produto ou serviço corretamente. “A inovação e a tecnologia tendem a ser os pilares do empreendedorismo para os próximos anos. Ou seja, a digitalização de processos e novos negócios digitais devem ditar um novo mercado, cada vez mais conectado e acessível” (Santander, 2022). Em meio às várias dificuldades, o aprendizado da gestão financeira no seu empreendimento permite um melhor controle de suas próprias dívidas e uma maior liberdade financeira.
 
 ## Público-Alvo
 
