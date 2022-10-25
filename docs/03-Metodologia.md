@@ -62,7 +62,7 @@ As ferramentas empregadas no projeto são:
 - `Ferramenta de desenho de tela:` Figma.
 - `Repositório do código fonte:` GitHub.
 
-O #VIsual# Studio **Code** foi escolhido porque ele possui uma integração com o
+O VIsual Studio Code foi escolhido porque ele possui uma integração com o
 GitHub. Devido a facilitar a comunicação com professor e a familiaridade de acesso pelos alunos as ferramentas de comunicação WhatsApp, Microsoft Teams e Discord foram utilizadas no processo de desenvolvimento deste projeto. Por fim, para criar os wireframes utilizamos a ferramenta Figma por melhor já termos conhecimento da funcionabilidade da mesma, com isto atendendo as necessidades da nossa solução.
 
 ### Processo
