@@ -4,7 +4,7 @@ Os requisitos e as personas apresentadas têm como base entrevistas e experiênc
 
 ## Personas
 
-|Nome https://br.depositphotos.com/213033328/free-stock-photo-serious-architect-using-smartphone-architecture.html | Informações pessoais | Hábitos Financeiros | Hobbies | Frustrações | Motivações |
+|Nome | Informações pessoais | Hábitos Financeiros | Hobbies | Frustrações | Motivações |
 |-----|----------------------|---------------------|---------|------------|------------|
 |Pedro Paulo | Tem 26 anos, possui o ensino superior completo, sendo recém-formado em arquitetura e trabalha de forma autônoma. | Possui o costume de realizar pagamentos com o cartão de crédito, porém sem realizar parcelas, e só utiliza de bancos digitais. | Viajar, conhecer lugares novos | Seu maior obstáculo é a falta de experiência no mercado de trabalho | Desenvolvimento Profissional |
 | Antônio Gomes | Tem 50 anos, possui o ensino médio incompleto, é autônomo e trabalha como pedreiro, pintor e gesseiro | Ainda faz uso de cheque e utiliza apenas bancos físicos, além de guardar dinheiro na poupança | É torcedor do flamengo e gosta de fazer um churrasco com a família no final de semana | Prejuízos ou pouco lucro nas suas empreitadas | Pretende montar uma equipe de trabalho |
