@@ -81,7 +81,7 @@ Para organização de cada etapa das tarefas e o status da mesma utilizamos as d
 - Plano de Testes de Software;
 - Apresentação do Projeto;
 - Vídeo de demostração da solução;
-- 
+
 - 1. *Sprint 1*
    - 1.1 *Planejamento*
        - 1.1.1 Documentação de contexto: estabelecer o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
@@ -92,16 +92,19 @@ Para organização de cada etapa das tarefas e o status da mesma utilizamos as d
    - 1.3 *Evidências*
        - 1.3.1 Documentação de contexto: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md
        - 1.3.2 Especificação do projeto: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md
-- 1. *Sprint 2*
+       - 1.3.3 O grupo teve dificuldade em associar que as historias de usuario são para destacar somente o que a persona precisaria para poder aplicar a ideia proposta de controle de orçamento.
+- 2. *Sprint 2*
    - 1.1 *Planejamento*
-       - 1.1.1 Metodologia: definir a composição da equipe de trabalho e as relações de ambiente de trabalho.
-       - 1.1.2 Projeto de Interface: definir o fluxo do usuário pelas telas do sistema e o protótipo interativo demonstrando as funcionalidades.
-       - 1.1.3 Arquitetura da solução: definir as tecnologias que serão utilizadas no sistema.
-   - 1.2 *Execução*
-       - 1.2.1 Responsável(s) pela metodologia, arquitetura da solução e documentação: Daniel, Milleny.
-       - 1.2.2 Responsável(s) pelo projeto de interface e fluxo dos usuários: Lucas, Iane, Guilherme e Thiago.
-       - 1.2.2 As ferramentas utilizadas foi o Google Docs, Figma e o GitHub.
-   - 1.3 *Evidências*
-       - 1.3.1 Metodologia: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/03-Metodologia.md
-       - 1.3.2 Projeto de Interface: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/04-Projeto%20de%20Interface.md
-       - 1.3.3 Arquitetura da solução: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.md
+       - 2.1.1 Metodologia: definir a composição da equipe de trabalho e as relações de ambiente de trabalho.
+       - 2.1.2 Projeto de Interface: definir o fluxo do usuário pelas telas do sistema e o protótipo interativo demonstrando as funcionalidades.
+       - 2.1.3 Arquitetura da solução: definir as tecnologias que serão utilizadas no sistema.
+   - 2.2 *Execução*
+       - 2.2.1 Responsável(s) pela metodologia, arquitetura da solução e documentação: Daniel, Milleny.
+       - 2.2.2 Responsável(s) pelo projeto de interface e fluxo dos usuários: Lucas, Iane, Guilherme e Thiago.
+       - 2.2.2 As ferramentas utilizadas foi o Google Docs, Figma e o GitHub.
+   - 2.3 *Evidências*
+       - 2.3.1 Metodologia: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/03-Metodologia.md
+       - 2.3.2 Projeto de Interface: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/04-Projeto%20de%20Interface.md
+       - 2.3.3 Arquitetura da solução: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.md
+       - 2.3.4 No momento de criar o Kanban o Daniel, Thiago e Milleny tiveram uma pequena duvida em relação a qual processo teria que ter os itens mais genericamente e qual era para derivar deste primeiro processo, ápos conversamos e pesquisar no material do canvas e na web chegamos a conclusão que o Backlog do produto precisa ter os itens principais e as sprints do produto são processos entregaveis que derivam de cada item do backlog do produto.
+       -  
