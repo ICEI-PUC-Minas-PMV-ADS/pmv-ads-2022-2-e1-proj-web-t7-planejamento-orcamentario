@@ -75,11 +75,12 @@ Para organização de cada etapa das tarefas e o status da mesma utilizamos as d
 - Documentação de Contexto;
 - Especificação do Projeto;
 - Metodologia;
-- Projeto de Interface;
-- Arquitetura da Solução;
-- Template padrão do Site;
 - Programação de Funcionalidades;
+- Implementação da Solução
+- Registro de Testes;
 - Plano de Testes de Software;
+- Apresentação do Projeto;
+- Vídeo de demostração da solução;
 - 
 - 1. *Sprint 1*
    - 1.1 *Planejamento*
