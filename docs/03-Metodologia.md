@@ -69,9 +69,11 @@ GitHub. Devido a facilitar a comunicação com professor e a familiaridade de ac
 
 Para organização de cada etapa das tarefas e o status da mesma utilizamos as descrições abaixo:
 
-![new-personas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/Kanban%2025-10-22.png?raw=true)
+![Kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/Kanban%2025-10-22.png?raw=true)
 
-- `Backlog do Produto:` recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+- `Backlog do Produto:` 
+- Documentação de Contexto.
+- 
 - 1. *Sprint 1*
    - 1.1 *Planejamento*
        - 1.1.1 Documentação de contexto: estabelecer o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
