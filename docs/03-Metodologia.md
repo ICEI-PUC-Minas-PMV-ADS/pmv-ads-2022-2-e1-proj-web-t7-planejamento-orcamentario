@@ -82,10 +82,9 @@ Para organização de cada etapa das tarefas e o status da mesma utilizamos as d
    - Apresentação do Projeto;
    - Vídeo de demostração da solução;
 
+<br />
 
-
-
-- 1. `*Sprint 1*`
+- 1. *Sprint 1*
    - 1.1 *Planejamento*
        - 1.1.1 Documentação de contexto: estabelecer o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
        - 1.1.2 Especificação do projeto: estabelecer as personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto.
@@ -96,7 +95,7 @@ Para organização de cada etapa das tarefas e o status da mesma utilizamos as d
        - 1.3.1 Documentação de contexto: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md
        - 1.3.2 Especificação do projeto: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md
        - 1.3.3 O grupo teve dificuldade em associar que as historias de usuario são para destacar somente o que a persona precisaria para poder aplicar a ideia proposta de controle de orçamento.
-- 2. `*Sprint 2*`
+- 2. *Sprint 2*
    - 1.1 *Planejamento*
        - 2.1.1 Metodologia: definir a composição da equipe de trabalho e as relações de ambiente de trabalho.
        - 2.1.2 Projeto de Interface: definir o fluxo do usuário pelas telas do sistema e o protótipo interativo demonstrando as funcionalidades.
