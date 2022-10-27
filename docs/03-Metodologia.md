@@ -72,15 +72,15 @@ Para organização de cada etapa das tarefas e o status da mesma utilizamos as d
 ![Kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/Kanban%2025-10-22.png?raw=true)
 
 - `Backlog do Produto:` 
-- Documentação de Contexto;
-- Especificação do Projeto;
-- Metodologia;
-- Programação de Funcionalidades;
-- Implementação da Solução
-- Registro de Testes;
-- Plano de Testes de Software;
-- Apresentação do Projeto;
-- Vídeo de demostração da solução;
+   - Documentação de Contexto;
+   - Especificação do Projeto;
+   - Metodologia;
+   - Programação de Funcionalidades;
+   - Implementação da Solução
+   - Registro de Testes;
+   - Plano de Testes de Software;
+   - Apresentação do Projeto;
+   - Vídeo de demostração da solução;
 
 - 1. *Sprint 1*
    - 1.1 *Planejamento*
