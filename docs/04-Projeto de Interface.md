@@ -11,6 +11,26 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ![Exemplo de UserFlow](img/userflow.jpg)
 
+![Exemplo de UserFlow](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaLogin.png)
+
+TELA - EFETUAR LOGIN
+> - A tela
+![Tela Novo Cadastro](/img/TelaCadastro.png)
+> **TELA - EFETUAR LOGIN**
+> - A tela
+![Tela Recuperar Senha](/img/TelaRecuperaSenha.png)
+**TELA - EFETUAR LOGIN**
+> - A tela
+![Tela Adicionar Produto](/img/TelaAdicionar.png)
+**TELA - EFETUAR LOGIN**
+> - A tela
+![Tela Editar Produto](/img/TelaEditar.png)
+**TELA - EFETUAR LOGIN**
+> - A tela
+![Tela Criar Orçamento](/img/TelaOrçamento.png)
+**TELA - EFETUAR LOGIN**
+> - A tela
+
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
 > **Links Úteis**:
