@@ -11,9 +11,9 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ![Exemplo de UserFlow](img/userflow.jpg)
 
-![Exemplo de UserFlow](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaLogin.png)
+![Tela Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaLogin.png)
 
-TELA - EFETUAR LOGIN
+> TELA - EFETUAR LOGIN
 > - A tela
 ![Tela Novo Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaCadastro.png)
 > **TELA - EFETUAR LOGIN**
