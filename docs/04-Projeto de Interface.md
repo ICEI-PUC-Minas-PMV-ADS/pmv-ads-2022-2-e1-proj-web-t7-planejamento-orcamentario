@@ -15,19 +15,19 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 TELA - EFETUAR LOGIN
 > - A tela
-![Tela Novo Cadastro](/img/TelaCadastro.png)
+![Tela Novo Cadastro]((https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaCadastro.png)
 > **TELA - EFETUAR LOGIN**
 > - A tela
-![Tela Recuperar Senha](/img/TelaRecuperaSenha.png)
+![Tela Recuperar Senha]((https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaRecuperaSenha.png)
 **TELA - EFETUAR LOGIN**
 > - A tela
-![Tela Adicionar Produto](/img/TelaAdicionar.png)
+![Tela Adicionar Produto]((https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaAdicionar.png)
 **TELA - EFETUAR LOGIN**
 > - A tela
-![Tela Editar Produto](/img/TelaEditar.png)
+![Tela Editar Produto]((https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaEditar.png)
 **TELA - EFETUAR LOGIN**
 > - A tela
-![Tela Criar Orçamento](/img/TelaOrçamento.png)
+![Tela Criar Orçamento]((https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaOrçamento.png)
 **TELA - EFETUAR LOGIN**
 > - A tela
 
