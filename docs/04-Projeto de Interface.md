@@ -12,30 +12,34 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ![Exemplo de UserFlow](img/userflow.jpg)
 
 ![Tela Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaLogin.png)
-
- TELA - EFETUAR LOGIN
+**TELA - EFETUAR LOGIN**
  - A tela
+ 
  
  ![Tela Novo Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaCadastro.png)
- 
- **TELA - NOVO CADASTRO**
+  **TELA - NOVO CADASTRO**
  - A tela
  
+ 
 ![Tela Recuperar Senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaRecuperaSenha.png)
-
 **TELA - RECUPERAR LOGIN**
 - A tela
 
 
 ![Tela Adicionar Produto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaAdicionar.png)
-**TELA - EFETUAR LOGIN**
-> - A tela
+**TELA - ADICIONAR PRODUTO**
+- A tela
+
+
 ![Tela Editar Produto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaEditar.png)
-**TELA - EFETUAR LOGIN**
-> - A tela
+**TELA - EDITAR PRODUTO**
+- A tela
+
+
 ![Tela Criar Orçamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaOrçamento.png)
-**TELA - EFETUAR LOGIN**
+**TELA - CRIAR ORÇAMENTO**
 > - A tela
+
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
