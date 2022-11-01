@@ -26,24 +26,6 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ![Tela Login](/img/TelaLogin.png)
 
 
-TELA - EFETUAR LOGIN
-> - A tela
-![Tela Novo Cadastro](/img/TelaCadastro.png)
-> **TELA - EFETUAR LOGIN**
-> - A tela
-![Tela Recuperar Senha](/img/TelaRecuperaSenha.png)
-**TELA - EFETUAR LOGIN**
-> - A tela
-![Tela Adicionar Produto](/img/TelaAdicionar.png)
-**TELA - EFETUAR LOGIN**
-> - A tela
-![Tela Editar Produto](/img/TelaEditar.png)
-**TELA - EFETUAR LOGIN**
-> - A tela
-![Tela Criar Orçamento](/img/TelaOrçamento.png)
-**TELA - EFETUAR LOGIN**
-> - A tela
-
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
