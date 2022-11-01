@@ -15,7 +15,8 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 > TELA - EFETUAR LOGIN
 > - A tela
-![Tela Novo Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaCadastro.png)
+> 
+> ![Tela Novo Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaCadastro.png)
 > **TELA - EFETUAR LOGIN**
 > - A tela
 ![Tela Recuperar Senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaRecuperaSenha.png)
