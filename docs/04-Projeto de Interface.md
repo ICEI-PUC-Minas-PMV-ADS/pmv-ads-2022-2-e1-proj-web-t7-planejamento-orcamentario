@@ -31,8 +31,14 @@ O diagrama apresentado abaixo mostra o fluxo de interação do usuário pelas te
  
 ![Tela Recuperar Senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaRecuperaSenha.png)
 
-**TELA - RECUPERAR LOGIN**
-- Ao se efetuar o login se o usuario esquecer sua senha o mesmo poderá clicar 
+**TELA - RECUPERAR SENHA**
+- Na tela de login caso o usuario esquecer sua senha o mesmo poderá clicar no link CLIQUE AQUI que o mesmo será direcionado para tela que criara uma nova senha.
+
+
+![Tela Editar Produto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaEditar.png)
+
+**TELA - EDITAR PRODUTO**
+- Nesta tela o usuario poderá navegar nas telas adicionar produto
 
 
 ![Tela Adicionar Produto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaAdicionar.png)
@@ -40,11 +46,6 @@ O diagrama apresentado abaixo mostra o fluxo de interação do usuário pelas te
 **TELA - ADICIONAR PRODUTO**
 - A tela
 
-
-![Tela Editar Produto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaEditar.png)
-
-**TELA - EDITAR PRODUTO**
-- A tela
 
 
 ![Tela Criar Orçamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaOrçamento.png)
