@@ -18,8 +18,7 @@ O diagrama apresentado abaixo mostra o fluxo de interação do usuário pelas te
 
 
 **TELA - EFETUAR LOGIN**
-- A tela efetuar login contem textbox onde recebera informações digitadas pelo usuario para poder ter acesso ao seu cadastro e suas informações.
-
+- A tela efetuar login será utilizada apenas quando o usuario ja estiver cadastrado, tendo o campo e-mail e senha para conseguir acessar suas informações invividuais.  
 ![Tela Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaLogin.png)
  
  
