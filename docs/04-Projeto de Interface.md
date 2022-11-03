@@ -27,6 +27,7 @@ O diagrama apresentado abaixo mostra o fluxo de interação do usuário pelas te
  **TELA - NOVO CADASTRO**
  - Caso usuário não tenha cadastro ele irá clicar em registre-se e o mesmo será redirecionado para uma tela de novo cadastro, onde o usuario irá preencher as informações requeridas e com isto o novo cadastro será criado.
  
+ 
  ![Tela Novo Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaCadastro.png)
  
  
