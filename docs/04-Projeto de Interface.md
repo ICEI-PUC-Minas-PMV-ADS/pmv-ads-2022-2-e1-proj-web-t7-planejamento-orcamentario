@@ -31,7 +31,7 @@ O diagrama apresentado abaixo mostra o fluxo de interação do usuário pelas te
  
  
  **TELA - RECUPERAR SENHA**
-- O usuario só será encaminhado para tela Recuperar Senha caso não lembre suas senha cadastrada na tela Novo Cadastro, para recuperar a senha basta clicar no link CLIQUE AQUI que o mesmo será direcionado para tela .
+- O usuario só será encaminhado para tela Recuperar Senha caso não lembre suas senha cadastrada na tela Novo Cadastro, para recuperar a senha basta clicar no link CLIQUE AQUI na tela Efetuar Login que o mesmo será direcionado para tela Recuperar senha será necessario digitar o email, e a senha duas vezes.
  
 ![Tela Recuperar Senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaRecuperaSenha.png)
 
