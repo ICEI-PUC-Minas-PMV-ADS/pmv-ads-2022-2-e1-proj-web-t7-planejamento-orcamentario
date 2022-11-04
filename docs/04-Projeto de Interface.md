@@ -37,13 +37,14 @@ O diagrama apresentado abaixo mostra o fluxo de interação do usuário pelas te
 
 
 **TELA - EDITAR PRODUTO**
-- Nesta tela o usuario poderá navegar nas telas adicionar produto
+- Na tela Editar Produto o usuario poderá visualizar todos os itens já criados e até filtra-los pela categoria. O usuario também conseguirá editar os itens já criados anteriormente na tela Adicionar Produto. 
 
 ![Tela Editar Produto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaEditar.png)
 
 
 **TELA - ADICIONAR PRODUTO**
-- A tela
+- Na tela Adicionar Produto o usuario conseguirá adicionar um novo produto preenchendo os campos: Categoria, Nome, Medida e o valor da unidade.e depois de preenchiudo basta clikar em salvar para adicionar o produto a lista de produto na tela Editar Produto, caso não queira adiconar o item no momento basta clikar em cancelar.
+
 
 ![Tela Adicionar Produto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaAdicionar.png)
 
