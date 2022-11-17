@@ -6,7 +6,6 @@ body{
     background: rgb(9, 10, 9);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(247,247,250,1) 0%, rgba(158,246,231,1) 81%, rgba(128,227,247,1) 98%);
     height: 100vh;
-    overflow:hidden
 }
 
 header > h1{
@@ -142,6 +141,35 @@ section > ul > li > p{
     font-size: 18px;
 }
 
+.equipe {
+    background: rgb(223,253,255);
+    background: linear-gradient(180deg, rgba(223,253,255,0.9780287114845938) 2%, rgba(133,206,209,1) 100%, rgba(86,169,185,1) 100%, rgba(45,144,164,1) 100%);
+    width: 100vw;
+}
+ .equipe > ul > li > img{
+    width: 150px;
+    border-radius: 100px;
+    margin-top: 15px;
+ }
+ .equipe > ul > li{
+    background-color: #ffffffb9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+ }
+ .equipe > ul > li> a{
+    text-decoration: none;
+    color: #1A6155;
+    margin-bottom: 15px;
+ }
+ .equipe > ul > li> h4 { 
+    margin-bottom: -10px;
+ }
+ .equipe-h2{
+    margin-top: 100px;
+    margin-bottom: -30px;
+ }
 footer > h1{
     text-align: center;
     font-family: 'Bree Serif', serif;
