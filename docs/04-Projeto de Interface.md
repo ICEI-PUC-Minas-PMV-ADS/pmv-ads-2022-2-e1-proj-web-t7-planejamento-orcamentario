@@ -16,42 +16,54 @@ O diagrama apresentado abaixo mostra o fluxo de interação do usuário pelas te
 
 ## Wireframes
 
+**TELA - INICIAL**
+- Essa tela será a primeira apresentada ao usuário. Contém botões para que o usuário consiga efetuar o login e/ou cadastro, além disso o ele pode saber mais sobre o projeto e conhecer toda a equipe.
+  
+![Tela Inicial](../docs/img/tela-inicial.png)
 
 **TELA - EFETUAR LOGIN**
-- A tela Efetuar Login será utilizada apenas quando o usuario ja estiver cadastrado, tendo o campo e-mail e senha para conseguir acessar suas informações invividuais.
+- A tela Efetuar Login será utilizada apenas quando o usuário já estiver cadastrado, tendo o campo e-mail e senha para conseguir acessar suas informações individuais.
  
  
-![Tela Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaLogin.png)
+![Tela Login](../docs/img/tela-login.png)
  
  
  **TELA - NOVO CADASTRO**
- - Na tela Novo Cadastro, caso o usuário não tenha cadastro ele terá que cadastrar para criar um login. Para se cadastrar basta clicar em registre-se e o mesmo será redirecionado para uma tela de novo cadastro, onde o usuario irá preencher as informações requeridas e com isto o novo cadastro será criado.
+ - Na tela Novo Cadastro, caso o usuário não tenha cadastro ele terá que cadastrar para criar um login. Para se cadastrar basta clicar em registre-se e o mesmo será redirecionado para uma tela de novo cadastro, onde o usuário irá preencher as informações requeridas e com isto o novo cadastro será criado.
  
- ![Tela Novo Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaCadastro.png)
+ ![Tela Novo Cadastro](../docs/img/tela-cadastro.png)
  
  
  **TELA - RECUPERAR SENHA**
-- O usuario só será encaminhado para tela Recuperar Senha caso não lembre suas senha cadastrada na tela Novo Cadastro, para recuperar a senha basta clicar no link CLIQUE AQUI na tela Efetuar Login que o mesmo será direcionado para tela Recuperar senha será necessario digitar o email, e a senha duas vezes.
+- O usuário só será encaminhado para tela Recuperar Senha caso não lembre suas senha cadastrada na tela Novo Cadastro, para recuperar a senha basta clicar no link CLIQUE AQUI na tela Efetuar Login que o mesmo será direcionado para tela Recuperar senha será necessário digitar o email, e a senha duas vezes.
  
-![Tela Recuperar Senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaRecuperaSenha.png)
+![Tela Recuperar Senha](../docs/img/tela-rec-senha.png)
+
+**TELA - TELA DE ITENS E ORÇAMENTO**
+- Nessa tela, o usuário consegue ver todos os produtos cadastrados em uma tabela com os seguintes campos: nome, categoria, medida, quantidade, preço. Ele também consegue cadastrar uma nova categoria, incluir novos itens e fazer um orçamento dos produtos cadastrados.
+
+![Tela Tabela de Produtos](../docs/img/tela-itens.png)
+
+**TELA - CADASTRAR CATEGORIA**
+- Nesse modal conseguimos cadastrar categorias que possam nos auxiliar a distinguir os itens.
+  
+![Tela Cadastrar Categoria](../docs/img/modal-categoria.png)
+
+**TELA - ADICIONAR ITEM**
+- No modal de adicionar item, o usuário conseguirá adicionar um novo produto preenchendo os campos: nome, categoria, medida, quantidade e o preço unitário do produto. E depois de preenchido basta clicar em salvar para adicionar o produto a tabela de produtos.
 
 
-**TELA - EDITAR PRODUTO**
-- Na tela Editar Produto o usuario poderá visualizar todos os itens já criados e até filtra-los pela categoria. O usuario também conseguirá editar os itens já criados anteriormente na tela Adicionar Produto. 
+![Tela Adicionar Produto](../docs/img/modal-incluir.png)
 
-![Tela Editar Produto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaEditar.png)
+**TELA - EDITAR ITEM**
+- O modal de editar item contém todos os campos da incluir item, porém quando ativada ele vem com os campos preenchidos com seus respectivos valores. 
 
-
-**TELA - ADICIONAR PRODUTO**
-- Na tela Adicionar Produto o usuario conseguirá adicionar um novo produto preenchendo os campos: Categoria, Nome, Medida e o valor da unidade.e depois de preenchiudo basta clikar em salvar para adicionar o produto a lista de produto na tela Editar Produto, caso não queira adiconar o item no momento basta clikar em cancelar.
+![Tela Editar Produto](../docs/img/modal-editar.png)
 
 
-![Tela Adicionar Produto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaAdicionar.png)
+**TELA - FAZER ORÇAMENTO**
+- Um modal será apresentado mostrando uma tabela com os itens cadastrados, com os seguintes campos: nome, quantidade, preço unitário e o subtotal daquele produto. Abaixo da tabela será fornecido um total de todos os produtos.
 
-
-**TELA - CRIAR ORÇAMENTO**
-> - A tela
-
-![Tela Criar Orçamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/img/TelaOrçamento.png)
+![Tela Criar Orçamento](../docs/img/modal-orcamento.png)
 
 
