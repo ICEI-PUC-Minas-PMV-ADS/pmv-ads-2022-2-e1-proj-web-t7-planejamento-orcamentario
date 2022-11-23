@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME</title>
+  <link rel="stylesheet" href="./styles/orcamento.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>        
+</head>
+
+<body>
+  <header class="cabecalho">
+    <h1 class="titulo__principal">Budplan</h1>
+    <button onclick="openModalOrcamento()" class="new">Fazer orçamento</i></button>
+  </header>
+
+    <section class="container" id="container">
+      <div class="header">
+        <span class="subtitulo">Cadastro de Itens</span>
+        <div class="button__header">
+          <button onclick="openModalCategoria()" class="new">Incluir Categoria</i></button>
+          <button onclick="openModalItem()" class="new">Incluir Item</i></button>
+      </div>
+      </div>
+
+      <div class="divTable">
+        <table class="table__itens">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Categoria</th>
+              <th>Medida</th>
+              <th>Quantidade</th>
+              <th>Preço</th>
+              <th class="acao">Editar</th>
+              <th class="acao">Excluir</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="modal__container__item">
+        <div class="modal__item">
+          <form>
+            <label class="label__item" for="m-nome">Nome</label>
+            <input class="input__item" id="m-nome" type="text" required />
+    
+            <label class="label__item" for="m-categoria">Categoria</label>
+            <select for="m-categoria" id="m-categoria" class="input__item" >
+            </select>
+            
+            <label class="label__item" for="m-medida">Medida</label>
+            <input class="input__item" id="m-medida" type="text" required />
+
+            <label class="label__item" for="m-quantidade">Quantidade</label>
+            <input class="input__item" id="m-quantidade" type="number" required />
+    
+            <label class="label__item" for="m-preco">Preço</label>
+            <input class="input__item" id="m-preco" type="number" required />
+
+            <button class="button__item" id="btnSalvar">Salvar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="modal__container__categoria">
+        <div class="modal__categoria">
+          <form>
+    
+            <label class="label__categoria" for="c-categoria">Categoria</label>
+            <input class="input__categoria" id="c-categoria" type="text" required />
+
+            <button class="button__categoria" id="btnAdicionar">Adicionar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="modal__container__orcamento">
+        <div class="modal__orcamento">
+          <!--<form>
+            <select for="m-categoria" id="m-categoria-orcamento" class="input__orcamento" >
+            </select>
+          </form>-->
+          <div class="divTable-orcamento">
+            <table class="table__itens-orcamento">
+              <thead>
+                <tr>
+                  <th>Nome</th>
+                  <th>Quantidade</th>
+                  <th>Preço Unitário</th>
+                  <th>Subtotal</th>
+                </tr>
+              </thead>
+              <tbody class="orcamento">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    
+  <script src="./script/script.js"></script>
+</body>
+
+</html>

@@ -11,29 +11,9 @@ Neste Projeto iremos utilizar a metodologia mostrada no quadro abaixo:
 |Repositório de Código Fonte      |Git Hub                |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario#|
 |Projeto de Interface e wireframes |Figma                  |https://www.figma.com/file/p2jHwdLS4o9N20C0ni6ci4/Untitled-(Copy)?node-id=243%3A1     |
 |Gerenciamento de Projeto (KANBAN)         |GitHub Projects             |   https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/166              |
+|Estrutura do código | Visual Studio Code| - |
 
 
-
-## Controle de Versão
-
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
 
 ## Gerenciamento de Projeto
 
