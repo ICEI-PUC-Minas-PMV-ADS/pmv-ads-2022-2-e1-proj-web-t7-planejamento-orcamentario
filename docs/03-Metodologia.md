@@ -11,29 +11,9 @@ Neste Projeto iremos utilizar a metodologia mostrada no quadro abaixo:
 |Repositório de Código Fonte      |Git Hub                |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario#|
 |Projeto de Interface e wireframes |Figma                  |https://www.figma.com/file/p2jHwdLS4o9N20C0ni6ci4/Untitled-(Copy)?node-id=243%3A1     |
 |Gerenciamento de Projeto (KANBAN)         |GitHub Projects             |   https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/166              |
+|Estrutura do código | Visual Studio Code| - |
 
 
-
-## Controle de Versão
-
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
 
 ## Gerenciamento de Projeto
 
@@ -109,3 +89,35 @@ Para organização de cada etapa das tarefas e o status da mesma utilizamos as d
        - 2.3.2 Projeto de Interface: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/04-Projeto%20de%20Interface.md
        - 2.3.3 Arquitetura da solução: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.md
        - 2.3.4 No momento de criar o Kanban o Daniel, Thiago e Milleny tiveram uma pequena duvida em relação a qual processo teria que ter os itens mais genericamente e qual era para derivar deste primeiro processo, ápos conversamos e pesquisar no material do canvas e na web chegamos a conclusão que o Backlog do produto precisa ter os itens principais e as sprints do produto são processos entregaveis que derivam de cada item do backlog do produto.
+- 2. *Sprint 3*
+   - 1.1 *Planejamento*
+       - 2.1.1 Template padrão do Site.
+       - 2.1.2 Programação de funcionalidades.
+   - 2.2 *Execução*
+       - 2.2.1 Responsável(s) pela página inicial: Iane.
+       - 2.2.2 Responsável(s) pela página de login: Daniel.
+       - 2.2.3 Responsável(s) pela página de cadastro: Lucas.
+       - 2.2.4 Responsável(s) pela página de recuperação de senha: Thiago.
+       - 2.2.5 Responsável(s) pelas demais telas: Milleny.
+       - 2.2.2 As ferramentas utilizadas foi o Google Docs, Figma, GitHub e Visual Studio Code.
+   - 2.3 *Evidências*
+       - 2.3.1 Template padrão do Site: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/06-Template%20padr%C3%A3o%20do%20Site.md
+       - 2.3.2 Programação de funcionalidades: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/tree/main/src
+       - 2.3.3 
+- 2. *Sprint 4*
+   - 1.1 *Planejamento*
+       - 2.1.1 Programação das demais funcionalidades.
+       - 2.1.2 Plano de Testes de Software.
+       - 2.1.3 Registro de Testes de Software.
+   - 2.2 *Execução*
+       - 2.2.1 Responsável(s) pela página inicial: Iane.
+       - 2.2.2 Responsável(s) pela página de login: Daniel.
+       - 2.2.3 Responsável(s) pela página de cadastro: Lucas.
+       - 2.2.4 Responsável(s) pela página de recuperação de senha: Thiago.
+       - 2.2.5 Responsável(s) pelas demais telas: Milleny.
+       - 2.2.2 As ferramentas utilizadas foi o Google Docs, Figma, GitHub e Visual Studio Code.
+   - 2.3 *Evidências*
+       - 2.3.1 Programação das demais funcionalidades: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/tree/main/src
+       - 2.3.2 Plano de Testes de Software: 
+       - 2.3.3 Registro de Testes de Software: 
+       - 2.3.4 
