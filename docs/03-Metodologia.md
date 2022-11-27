@@ -102,7 +102,8 @@ Para organização de cada etapa das tarefas e o status da mesma utilizamos as d
        - 2.2.2 As ferramentas utilizadas foi o Google Docs, Figma, GitHub e Visual Studio Code.
    - 2.3 *Evidências*
        - 2.3.1 Template padrão do Site: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/06-Template%20padr%C3%A3o%20do%20Site.md
-       - 2.3.2 Programação de funcionalidades: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/tree/main/src
+       - 2.3.2 Programação de funcionalidades: 
+       ![Quadro kanban com a divisão das funcionalidades](../docs/img/divisaoFuncionalidades.png)
        - 2.3.3 
 - 2. *Sprint 4*
    - 1.1 *Planejamento*
