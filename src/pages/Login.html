@@ -1,28 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/signin.css">
     <title>Login</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <div id="login-container">
-        <h1>Login</h1>
-        <form action="">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" autocomplete="off">
-            <label for="password">Senha</label>
-            <input type="password" name="password" placeholder="Digite sua senha">
-            <a href="#" id="forgot-pass"> Esqueceu a senha?</a>
-            <input type="submit" value="Clique para Logar">
-        </form>
-        <div id="register-container">
-        <p>Deseja fazer cadastro?</p>
-         <a href="#">Registrar</a>
+
+    <header class="cabecalho">
+        <h1 class="titulo__principal">Budplan</h1>        
+      </header>
+
+    <div class="container">
+        <div class="card">
+            <h1>Entrar</h1>
+
+            <div id="msgError"></div>
+
+            <div class="label-float">
+                <input type="text" id="usuario" paceholder="" required />
+                <label id="userLabel" for="usuario">Usuario</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="senha" paceholder="" required />
+                <label id="senhaLabel" for="senha">Senha</label>
+                <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <div class="justify-center">
+                <button onclick="entrar()">Entrar</button>
+            </div>
+
+            <div class="justify-center">
+                <hr />
+            </div>
+
+            <p>
+                Não tem uma conta?
+                <a href="../html/signup.html">
+                    Cadastre-se
+                </a>
+            </p>
         </div>
     </div>
+
+    <script src="../js/signin.js"></script>
 </body>
+
 </html>
