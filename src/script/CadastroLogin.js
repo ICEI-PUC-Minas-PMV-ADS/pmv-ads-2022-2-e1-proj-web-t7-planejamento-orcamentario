@@ -1,196 +1,131 @@
-class Validator {
+let btn = document.querySelector('#verSenha')
+let btnConfirm = document.querySelector('#verConfirmSenha')
 
-    constructor() {
-      this.validations = [
-        'data-min-length',
-        'data-max-length',
-        'data-only-letters',
-        'data-email-validate',
-        'data-required',
-        'data-equal',
-        'data-password-validate',
-      ]
-    }
-  
-    // inicia a validação de todos os campos
-    validate(form) {
-  
-      // limpa todas as validações antigas
-      let currentValidations = document.querySelectorAll('form .error-validation');
-  
-      if(currentValidations.length) {
-        this.cleanValidations(currentValidations);
-      }
-  
-      // pegar todos inputs
-      let inputs = form.getElementsByTagName('input');
-      // transformar HTMLCollection em arr
-      let inputsArray = [...inputs];
-  
-      // loop nos inputs e validação mediante aos atributos encontrados
-      inputsArray.forEach(function(input, obj) {
-  
-        // fazer validação de acordo com o atributo do input
-        for(let i = 0; this.validations.length > i; i++) {
-          if(input.getAttribute(this.validations[i]) != null) {
-  
-            // limpa string para saber o método
-            let method = this.validations[i].replace("data-", "").replace("-", "");
-  
-            // valor do input
-            let value = input.getAttribute(this.validations[i])
-  
-            // invoca o método
-            this[method](input,value);
-  
-          }
-        }
-  
-      }, this);
-  
-    }
-  
-    // método para validar se tem um mínimo de caracteres
-    minlength(input, minValue) {
-  
-      let inputLength = input.value.length;
-  
-      let errorMessage = `O campo precisa ter pelo menos ${minValue} caracteres`;
-  
-      if(inputLength < minValue) {
-        this.printMessage(input, errorMessage);
-      }
-  
-    }
-  
-    // método para validar se passou do máximo de caracteres
-    maxlength(input, maxValue) {
-  
-      let inputLength = input.value.length;
-  
-      let errorMessage = `O campo precisa ter menos que ${maxValue} caracteres`;
-  
-      if(inputLength > maxValue) {
-        this.printMessage(input, errorMessage);
-      }
-  
-    }
-  
-    // método para validar strings que só contem letras
-    onlyletters(input) {
-  
-      let re = /^[A-Za-z]+$/;;
-  
-      let inputValue = input.value;
-  
-      let errorMessage = `Este campo não aceita números nem caracteres especiais`;
-  
-      if(!re.test(inputValue)) {
-        this.printMessage(input, errorMessage);
-      }
-  
-    }
-  
-    // método para validar e-mail
-    emailvalidate(input) {
-      let re = /\S+@\S+\.\S+/;
-  
-      let email = input.value;
-  
-      let errorMessage = `Insira um e-mail no padrão matheus@email.com`;
-  
-      if(!re.test(email)) {
-        this.printMessage(input, errorMessage);
-      }
-  
-    }
-  
-    // verificar se um campo está igual o outro
-    equal(input, inputName) {
-  
-      let inputToCompare = document.getElementsByName(inputName)[0];
-  
-      let errorMessage = `Este campo precisa estar igual ao ${inputName}`;
-  
-      if(input.value != inputToCompare.value) {
-        this.printMessage(input, errorMessage);
-      }
-    }
-    
-    // método para exibir inputs que são necessários
-    required(input) {
-  
-      let inputValue = input.value;
-  
-      if(inputValue === '') {
-        let errorMessage = `Este campo é obrigatório`;
-  
-        this.printMessage(input, errorMessage);
-      }
-  
-    }
-  
-    // validando o campo de senha
-    passwordvalidate(input) {
-  
-      // explodir string em array
-      let charArr = input.value.split("");
-  
-      let uppercases = 0;
-      let numbers = 0;
-  
-      for(let i = 0; charArr.length > i; i++) {
-        if(charArr[i] === charArr[i].toUpperCase() && isNaN(parseInt(charArr[i]))) {
-          uppercases++;
-        } else if(!isNaN(parseInt(charArr[i]))) {
-          numbers++;
-        }
-      }
-  
-      if(uppercases === 0 || numbers === 0) {
-        let errorMessage = `A senha precisa um caractere maiúsculo e um número`;
-  
-        this.printMessage(input, errorMessage);
-      }
-  
-    }
-  
-    // método para imprimir mensagens de erro
-    printMessage(input, msg) {
-    
-      // checa os erros presentes no input
-      let errorsQty = input.parentNode.querySelector('.error-validation');
-  
-      // imprimir erro só se não tiver erros
-      if(errorsQty === null) {
-        let template = document.querySelector('.error-validation').cloneNode(true);
-  
-        template.textContent = msg;
-    
-        let inputParent = input.parentNode;
-    
-        template.classList.remove('template');
-    
-        inputParent.appendChild(template);
-      }
-  
-    }
-  
-    // remove todas as validações para fazer a checagem novamente
-    cleanValidations(validations) {
-      validations.forEach(el => el.remove());
-    }
-  
+
+let nome = document.querySelector('#nome')
+let labelNome = document.querySelector('#labelNome')
+let validNome = false
+
+let usuario = document.querySelector('#usuario')
+let labelUsuario = document.querySelector('#labelUsuario')
+let validUsuario = false
+
+let senha = document.querySelector('#senha')
+let labelSenha = document.querySelector('#labelSenha')
+let validSenha = false
+
+let confirmSenha = document.querySelector('#confirmSenha')
+let labelConfirmSenha = document.querySelector('#labelConfirmSenha')
+let validConfirmSenha = false
+
+let msgError = document.querySelector('#msgError')
+let msgSuccess = document.querySelector('#msgSuccess')
+
+nome.addEventListener('keyup', () => {
+  if(nome.value.length <= 2){
+    labelNome.setAttribute('style', 'color: red')
+    labelNome.innerHTML = 'Nome *Insira no minimo 3 caracteres'
+    nome.setAttribute('style', 'border-color: red')
+    validNome = false
+  } else {
+    labelNome.setAttribute('style', 'color: green')
+    labelNome.innerHTML = 'Nome'
+    nome.setAttribute('style', 'border-color: green')
+    validNome = true
   }
+})
+
+usuario.addEventListener('keyup', () => {
+  if(usuario.value.length <= 4){
+    labelUsuario.setAttribute('style', 'color: red')
+    labelUsuario.innerHTML = 'Usuário *Insira no minimo 5 caracteres'
+    usuario.setAttribute('style', 'border-color: red')
+    validUsuario = false
+  } else {
+    labelUsuario.setAttribute('style', 'color: green')
+    labelUsuario.innerHTML = 'Usuário'
+    usuario.setAttribute('style', 'border-color: green')
+    validUsuario = true
+  }
+})
+
+senha.addEventListener('keyup', () => {
+  if(senha.value.length <= 5){
+    labelSenha.setAttribute('style', 'color: red')
+    labelSenha.innerHTML = 'Senha *Insira no minimo 6 caracteres'
+    senha.setAttribute('style', 'border-color: red')
+    validSenha = false
+  } else {
+    labelSenha.setAttribute('style', 'color: green')
+    labelSenha.innerHTML = 'Senha'
+    senha.setAttribute('style', 'border-color: green')
+    validSenha = true
+  }
+})
+
+confirmSenha.addEventListener('keyup', () => {
+  if(senha.value != confirmSenha.value){
+    labelConfirmSenha.setAttribute('style', 'color: red')
+    labelConfirmSenha.innerHTML = 'Confirmar Senha *As senhas não conferem'
+    confirmSenha.setAttribute('style', 'border-color: red')
+    validConfirmSenha = false
+  } else {
+    labelConfirmSenha.setAttribute('style', 'color: green')
+    labelConfirmSenha.innerHTML = 'Confirmar Senha'
+    confirmSenha.setAttribute('style', 'border-color: green')
+    validConfirmSenha = true
+  }
+})
+
+function cadastrar(){
+  if(validNome && validUsuario && validSenha && validConfirmSenha){
+    let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
+    
+    listaUser.push(
+    {
+      nomeCad: nome.value,
+      userCad: usuario.value,
+      senhaCad: senha.value
+    }
+    )
+    
+    localStorage.setItem('listaUser', JSON.stringify(listaUser))
+    
+   
+    msgSuccess.setAttribute('style', 'display: block')
+    msgSuccess.innerHTML = '<strong>Cadastrando usuário...</strong>'
+    msgError.setAttribute('style', 'display: none')
+    msgError.innerHTML = ''
+    
+    setTimeout(()=>{
+        window.location.href = '../html/signin.html'//mudar aqui
+    }, 2000)
   
-  let form = document.getElementById('register-form');
-  let submit = document.getElementById('btn-submit');
+    
+  } else {
+    msgError.setAttribute('style', 'display: block')
+    msgError.innerHTML = '<strong>Preencha todos os campos corretamente antes de cadastrar</strong>'
+    msgSuccess.innerHTML = ''
+    msgSuccess.setAttribute('style', 'display: none')
+  }
+}
+
+btn.addEventListener('click', ()=>{
+  let inputSenha = document.querySelector('#senha')
   
-  let validator = new Validator();
+  if(inputSenha.getAttribute('type') == 'password'){
+    inputSenha.setAttribute('type', 'text')
+  } else {
+    inputSenha.setAttribute('type', 'password')
+  }
+})
+
+btnConfirm.addEventListener('click', ()=>{
+  let inputConfirmSenha = document.querySelector('#confirmSenha')
   
-  // evento de envio do form, que valida os inputs
-  submit.addEventListener('click', function(e) {
-    e.preventDefault();
-  
-    validator.validate(form);
-  });
+  if(inputConfirmSenha.getAttribute('type') == 'password'){
+    inputConfirmSenha.setAttribute('type', 'text')
+  } else {
+    inputConfirmSenha.setAttribute('type', 'password')
+  }
+})
