@@ -1,103 +1,160 @@
-/* geral */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
-    color: #323232;
-    border: none;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
-input, label{
-    display: block;
-    width: 100%;
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(247,247,250,1) 0%, rgba(158,246,231,1) 81%, rgba(128,227,247,1) 98%);
 }
 
-input:focus, label:focus{
-    outline: none;
+/*body {
+  background-image: url("../images/TelaCadastro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed  
+}*/
+
+
+.cabecalho {
+  border: 1px solid rgb(34, 160, 160);
+  background-color: rgb(34, 160, 160);
+  box-shadow: 4px 5px 4px rgb(193, 195, 200);
+  height: 4.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
 }
 
-a{
-    color: red;
+.header {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 12px;
 }
 
-body{
-    padding-top: 5vh; /*borda de 5% do topo*/
-    background-color: antiquewhite;    
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
 }
 
-/* form */
-#main-container{
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 25px;
+.card {
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+  width: 400px;
 }
 
-#main-container h1{
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 1.6rem;
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d009c
 }
 
-form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #0d009c;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  
 }
 
-.full-box{
-    flex: 1 1 100%;
-    position: relative;
+.label-float{
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.half-box{
-    flex: 1 1 45%;
-    position: relative;
+.label-float input:focus{
+  border-bottom: 2px solid #4038a0;
 }
 
-.spacing{
-    margin-right: 2.5%;
+.label-float label{
+  color: #0d009c;
+  pointer-event: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
 }
 
-label{
-    font-weight: bold;
-    font-size: .8rem;
+.label-float input:focus + label,
+.label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #4038a0
 }
 
-input{
-    border-bottom: 2px solid #323232;
-    padding: 10px;
-    font-size: .9rem;
-    margin-bottom: 40px;
+button{
+  background-color: transparent;
+  border-color: #0d009c;
+  color: #0d009c;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
 }
 
-input:focus{
-    border-color: red;
+button:hover{
+  background-color: #0d009c;
+  color: #fff;
 }
 
-input[type="submit"]{
-    background-color:  #106099;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-    border-radius: 20px;
-    height: 40px;
-    cursor: pointer;
+.justify-center{
+  display: flex;
+  justify-content: center;
 }
 
-/* Validações*/
-
-.error-validation{
-    color: red;
-    position: absolute;
-    top: 57px;
-    font-size: .8rem;
+.fa-eye{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #0d009c;
 }
 
-.template{
-    display: none;
+#msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+#msgSuccess{
+  text-align: center;
+  color: #00bb00;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
 }
