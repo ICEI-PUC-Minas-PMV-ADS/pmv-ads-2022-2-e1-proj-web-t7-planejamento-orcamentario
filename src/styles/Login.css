@@ -1,94 +1,176 @@
-/* geral */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
-    margin: 0%;
+* {
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica;
-    color: #323232;
-    border: none;
+    font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background-color: rgb(210, 244, 185);
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(247,247,250,1) 0%, rgba(158,246,231,1) 81%, rgba(128,227,247,1) 98%);
+  }
+
+
+/*body {
+    background-image: url("../images/TelaLogin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+*/
+
+.cabecalho {
+    border: 1px solid rgb(34, 160, 160);
+    background-color: rgb(34, 160, 160);
+    box-shadow: 4px 5px 4px rgb(193, 195, 200);
+    height: 4.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
 }
 
-/*tirar a area em volta do textbox*/
-textarea:focus, input:focus{
+.header {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 12px;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: #ffffff80;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #272262
+}
+
+.label-float input {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #272262;
+    background-color: transparent;
     outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+
 }
 
-a{
-    font-size: .8rem;
+.label-float {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid #4038a0;
+}
+
+.label-float label {
+    color: #272262;
+    pointer-event: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus+label,
+.label-float input:valid+label {
+    font-size: 13px;
+    margin-top: 0;
+    color: #4038a0
+}
+
+button {
+    background-color: transparent;
+    border-color: #272262;
+    color: #272262;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+button:hover {
+    background-color: #272262;
+    color: #fff;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+p {
+    color: #272262;
+    font-size: 14pt;
+    text-align: center;
+}
+
+a {
+    color: #7a3077;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
 }
 
 a:hover {
-    color:blueviolet;
+    color: #272262;
 }
 
-/* container LOGIN */
-
-#login-container{
-    background-color: #fff;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 30px;
-    margin-top: 10vh;
-    border-radius: 10px;
-    text-align: center;
-}
-
-/* Formulario */
-
-form{
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-
-label, input{
-    display: block;
-    width: 100%;
-    text-align: left;
-}
-
-label{
-    font-weight: bold;
-    font-size: .8rem;
-}
-
-input{
-    border: 2px solid #323232;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 1rem;
-    margin-bottom: 20px;
-}
-
-input:focus{
-    border-bottom: 2px solid #08558b;
-}
-
-#forgot-pass{
-    text-align: left;
-    display: block;
-}
-
-input[type="submit"] {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: 30px;
-    color: #fff;
-    background-color: #106099;
+.fa-eye {
+    position: absolute;
+    top: 15px;
+    right: 10px;
     cursor: pointer;
+    color: #272262;
 }
 
-input[type="submit"]:hover {
-    background-color: #1b223c;
-    transition: .5s;
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
 }
 
