@@ -42,7 +42,7 @@ function entrar() {
 
     //se usuario e senha correto abre index
     if (usuario.value == userValid.user && senha.value == userValid.senha) {
-        window.location.href = 'Orcamento.html' //mudar aqui
+        window.location.href = '../pages/orcamento.html' //mudar aqui
 
         let mathRandom = Math.random().toString(16).substr(2)
         let token = mathRandom + mathRandom
