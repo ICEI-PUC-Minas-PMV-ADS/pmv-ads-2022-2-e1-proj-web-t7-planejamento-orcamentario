@@ -2,9 +2,45 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentadas na sequência.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+## Adicionar e editar itens (RF-01)
+A tela principal do sistema apresenta itens que foram cadastrados, os ítens são armazenados no LocalStorage com estruturas de dados baseada em JSON. Além disso, a tela também fornece a possibilidade de incluir categorias para organizar os itens. Um exemplo da tela é apresentado abaixo.
+
+![Tela Orçamento](../docs/img/telaOrcamento.png)
+![Tela Orçamento](../docs/img/telaOrcamento-incluirItem.png)
+![Tela Orçamento](../docs/img/telaOrcamento-categoria.png)
+
+### Requisitos atendidos
+    - RF-01 - O site deve permitir ao usuário inserir e editar itens cadastrados organizados por categorias.
+
+### Artefatos da funcionalidade
+    - orcamento.html
+    - script.js
+    - orcamento.css
+
+### Instruções de acesso
+    1. Abra um navegador de Internet e informe a seguinte URL: [ainda não implementado]
+    2. A tela de adicionar e editar itens é a primeira apresentada ao usuário logado.
+    3. Para inserir uma categoria, basta clicar no botão “Incluir Categoria”, digitar a categoria a ser cadastrada e clicar em “Adicionar”.
+    4. Para inserir um item, basta clicar no botão “Incluir Item”, preencher todos os campos e clicar em “Salvar”.
+
+ <br><br>
+## Modal de fazer orçamento (RF-02)
+O modal de fazer orçamento retorna alguns dados dos itens e também o subtotal daquele item. Também será fornecido o total de todos os itens.
+
+![Tela Orçamento](../docs/img/telaOrcamento-orcamento.png)
+
+### Requisitos atendidos
+    - RF-02 - O site deve permitir ao usuário fazer análises dos orçamentos através do subtotal do produto e total de todos os produtos
+
+### Artefatos da funcionalidade
+    - orcamento.html
+    - script.js
+    - orcamento.css
+
+### Instruções de acesso
+    1. Na página principal do orçamento, clique em “Fazer Orçamento”;
 
 > **Links Úteis**:
 >
