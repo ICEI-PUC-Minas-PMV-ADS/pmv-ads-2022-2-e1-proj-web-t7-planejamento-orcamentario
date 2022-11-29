@@ -3,9 +3,10 @@
 function salvarUsuarioNavegador() {
 
       const usuario = {
-          email: "mail@mail.com",
-          senha: "coxinha123",
-          cidade: "manaus"
+        nomeCad: nome.value,
+        userCad: usuario.value,
+        emailCad: email.value,
+        senhaCad: senha.value,
       }
   
       let usuarioString = JSON.stringify(usuario)
