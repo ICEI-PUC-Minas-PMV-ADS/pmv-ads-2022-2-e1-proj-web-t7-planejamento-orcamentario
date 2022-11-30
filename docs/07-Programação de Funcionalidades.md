@@ -65,3 +65,20 @@ O modal de fazer orçamento retorna alguns dados dos itens e também o subtotal 
 
 ### Instruções de acesso
     1. Na página principal do orçamento, clique em “Fazer Orçamento”;
+
+<br><br>
+## Modal de editar item (RF-03)
+O modal de editar itens permite que os usuários mantenham os itens cadastrados atualizados, podendo alterar qualquer um dos campos.
+
+![Tela Orçamento](../docs/img/telaOrcamento-editarItem.png)
+
+### Requisitos atendidos
+    - RF-03 - O site deve permitir ao usuário manter os dados dos itens cadastrados atualizados.
+
+### Artefatos da funcionalidade
+    - orcamento.html
+    - script.js
+    - orcamento.css
+
+### Instruções de acesso
+    1. Na página principal do orçamento, clique no ícone da coluna editar, os campos devem vir preenchidos para facilitar alterações;
