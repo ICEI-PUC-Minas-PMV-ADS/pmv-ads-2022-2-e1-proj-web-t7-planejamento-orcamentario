@@ -10,6 +10,10 @@ let usuario = document.querySelector('#usuario')
 let labelUsuario = document.querySelector('#labelUsuario')
 let validUsuario = false
 
+let email = document.querySelector('#email')
+let labelEmail = document.querySelector('#labelEmail')
+let validEmail = false
+
 let senha = document.querySelector('#senha')
 let labelSenha = document.querySelector('#labelSenha')
 let validSenha = false
@@ -49,6 +53,20 @@ usuario.addEventListener('keyup', () => {
   }
 })
 
+email.addEventListener('keyup', () => {
+  if(email.value.length <= 4){
+    labelEmail.setAttribute('style', 'color: red')
+    labelEmail.innerHTML = 'Email *Insira no minimo o 5 caracteres'
+    email.setAttribute('style', 'border-color: red')
+    validEmail = false
+  } else {
+    labelEmail.setAttribute('style', 'color: green')
+    labelEmail.innerHTML = 'Email'
+    email.setAttribute('style', 'border-color: green')
+    validEmail = true
+  }
+})
+
 senha.addEventListener('keyup', () => {
   if(senha.value.length <= 5){
     labelSenha.setAttribute('style', 'color: red')
@@ -78,13 +96,14 @@ confirmSenha.addEventListener('keyup', () => {
 })
 
 function cadastrar(){
-  if(validNome && validUsuario && validSenha && validConfirmSenha){
+  if(validNome && validUsuario && validEmail && validSenha && validConfirmSenha){
     let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
     
     listaUser.push(
     {
       nomeCad: nome.value,
       userCad: usuario.value,
+      emailCad: email.value,
       senhaCad: senha.value
     }
     )
