@@ -19,6 +19,30 @@ A tela principal do sistema apresenta itens que foram cadastrados, os ítens sã
     - script.js
     - orcamento.css
 
+### Estrutura de dados
+~~~Itens
+{
+	"itens": [
+		{
+			"id": 1,
+			"nome": "Cimento",
+			"categoria": "0",
+			"medida": "unidade",
+			"quantidade": “3”,
+			"preco": "104,7"
+		}
+	]
+}
+~~~
+~~~Categorias
+{
+	"categorias": [
+		“Materiais”,
+		“Casa”
+	]
+}
+~~~
+
 ### Instruções de acesso
     1. Abra um navegador de Internet e informe a seguinte URL: [ainda não implementado]
     2. A tela de adicionar e editar itens é a primeira apresentada ao usuário logado.
@@ -41,11 +65,3 @@ O modal de fazer orçamento retorna alguns dados dos itens e também o subtotal 
 
 ### Instruções de acesso
     1. Na página principal do orçamento, clique em “Fazer Orçamento”;
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
