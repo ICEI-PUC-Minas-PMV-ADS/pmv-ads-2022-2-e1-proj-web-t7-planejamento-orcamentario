@@ -33,6 +33,6 @@ Será utilizado as três principais linguagens de desenvolvimento web fron-end e
 
 ## Hospedagem
 
-O site utiliza a plataforma do GitHub como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: [COLOCAR LINK AQUI]
+O site utiliza a plataforma do GitHub como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: [Budplan](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/)
 
 A publicação do site no GitHub Pages é feita por meio de uma submissão do projeto (push) via git para o repositório remoto que se encontra no GitHub.
