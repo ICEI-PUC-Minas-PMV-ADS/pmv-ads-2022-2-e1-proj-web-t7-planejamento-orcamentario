@@ -50,6 +50,9 @@ A tabela a seguir apresenta os requisitos não funcionais ( que não se relacion
 |RNF-004 | O site deve poder ser utilizado sem treinamento prévio | ALTA |
 |RNF-005 | O site deve considerar a acessibilidade | MÉDIA |
 |RNF-006 | O site deve apresentar na página inicial com a possível realização de login ou cadastro | ALTA |
+| RNF-007 | O site deve permitir a recuperação de senha. | MÉDIA |
+
+
 
 ## Restrições
 
