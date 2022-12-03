@@ -11,4 +11,30 @@ Os requisitos para realização dos testes de software são:
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 - 
 
-![]()
+![Plano de teste de Software 1](../docs/img/teste1.png)
+
+<br>
+
+![Plano de teste de Software 1](../docs/img/teste2.png)
+
+<br>
+
+![Plano de teste de Software 1](../docs/img/teste3.png)
+
+<br>
+
+![Plano de teste de Software 1](../docs/img/teste4.png)
+
+<br>
+
+![Plano de teste de Software 1](../docs/img/teste5.png)
+
+<br>
+
+![Plano de teste de Software 1](../docs/img/teste6.png)
+
+<br>
+
+![Plano de teste de Software 1](../docs/img/teste7.png)
+
+<br>
