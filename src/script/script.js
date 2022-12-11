@@ -39,20 +39,19 @@ function openModalItem(edit = false, index = 0) {
     }
   }
 
- if (edit) {
-    sNome.value = itens[index].nome
-    sCategoria.value = itens[index].categoria
-    sMedida.value = itens[index].medida
-    sQuantidade.value = itens[index].quantidade
-    sPreco.value = itens[index].preco
-    id = index
-  } else {
-    sNome.value = ''
-    sMedida.value = ''
-    sQuantidade.value = ''
-    sPreco.value = ''
-  }
-  
+    if (edit) {
+        sNome.value = itens[index].nome
+        sCategoria.value = itens[index].categoria
+        sMedida.value = itens[index].medida
+        sQuantidade.value = itens[index].quantidade
+        sPreco.value = itens[index].preco
+        id = index
+      } else {
+        sNome.value = ''
+        sMedida.value = ''
+        sQuantidade.value = ''
+        sPreco.value = ''
+      }
 }
 
 function editItem(index) {

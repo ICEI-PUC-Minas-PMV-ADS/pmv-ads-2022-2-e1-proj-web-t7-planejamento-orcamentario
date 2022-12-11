@@ -30,8 +30,10 @@ function Enviar(e) {
     button.addEventListener("click", (e) => {
         e.preventDefault()
         compararDados()
+        window.location.href = '../pages/login.html'
       })
       
+    
 }
 
 Enviar()
