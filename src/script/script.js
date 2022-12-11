@@ -12,6 +12,7 @@ const btnAdicionar = document.querySelector('#btnAdicionar')
 
 const modalOrcamento = document.querySelector('.modal__container__orcamento')
 const oCategoria = document.querySelector('#m-categoria-orcamento')
+let span = document.querySelector(".span")
 
 
 let itens = [];
@@ -162,6 +163,8 @@ function openModalOrcamento(edit = false, index = 0) {
       modalOrcamento.classList.remove('active')
     }
   }
+  
+  total = 0
 }
 
 function insertItemOrcamento(item) {
@@ -188,15 +191,8 @@ function loadItensOrcamento() {
 
     total = total + parseFloat(item.quantidade*item.preco);
   })
-  insertTotalOrcamento()
-}
 
-function insertTotalOrcamento() {
-  let modalOrcamento = document.querySelector(".modal__orcamento")
-  let span = document.createElement('span')
-
- span.innerHTML = `
-    <br>Total: R$${total.toFixed(2)}
+  span.innerHTML = `
+    Total: R$ ${total.toFixed(2)}
   `
-  modalOrcamento.appendChild(span)
 }
