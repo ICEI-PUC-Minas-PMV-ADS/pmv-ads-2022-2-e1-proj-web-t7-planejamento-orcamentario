@@ -30,7 +30,10 @@ function Enviar(e) {
     button.addEventListener("click", (e) => {
         e.preventDefault()
         compararDados()
-        window.location.href = '../pages/login.html'
+
+        if (compararDados) {
+            window.location.href = "../pages/login.html"
+        }
       })
       
     
