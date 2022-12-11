@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -17,8 +19,9 @@ body {
   
   
 .cabecalho {
+    border: 3px solid rgb(34, 160, 160);
     background-color: rgb(34, 160, 160);
-    box-shadow: 0 5px 10px #55a6ff38;
+    box-shadow: 4px 5px 4px rgb(193, 195, 200);
     height: 3.5rem;
     display: flex;
     align-items: center;
@@ -31,12 +34,12 @@ body {
     color: #fbfffe;
 }
 
-
 .container {
-    width: 50%;
+    width: 40%;
     height: 60%;
     border-radius: 10px;
-    background: white;
+    background-color: #ffffffd6;
+    box-shadow: 3px 3px 1px 0px #38373754;
     padding: 2rem 1rem 2rem 1rem;
     display: flex;
     align-items: center;
@@ -44,17 +47,33 @@ body {
 }
 
 .titulo__form {
-    font-weight: 400;
     padding-bottom: 1.5rem;
+    color: rgb(34, 160, 160);
+    text-align: center;
 }
 
+fieldset{
+    color: rgb(34, 160, 160);
+    
+}
+
+.email{
+    outline: none;
+}
+.nova__senha{
+    outline: none;
+}
+
+.confirmar_senha{
+    outline: none;
+
+}
 .traco {
     border: none;
-    border-bottom: 0.9px solid #000000;
-    margin-bottom: 1rem;
+
 }
 .sem-traco {
-    border: none;
+    border: none
 }
 
 label {
@@ -69,17 +88,25 @@ input {
     margin-top: 5px;
     border: none;
     border: 1px solid #fff;
-    border-bottom: 0.2px solid #000000;
+    border-bottom: 2px solid rgb(34, 160, 160);
     margin-bottom: 0.5em;
 }
 
 .btn-salvar {
-    border: none;
-    border-radius: 20px;
-    background-color: rgb(10, 10, 180);
-    color: #fff;
+    background-color: transparent;
+    border: 2px solid rgb(34, 160, 160);
+    border-radius: 4px;
     font-weight: bold;
     margin-top: 1.2rem;
+    color: rgb(34, 160, 160);
+    transition: all .4s ease-out;
+    cursor: pointer;
+    box-shadow: 3px 3px 1px 0px #38373754;
+}
+
+.btn-salvar:hover {
+    background-color: rgb(34, 160, 160);
+    color: #fff;    
 }
 
 @media(max-width: 768px) {
