@@ -12,6 +12,7 @@ const btnAdicionar = document.querySelector('#btnAdicionar')
 
 const modalOrcamento = document.querySelector('.modal__container__orcamento')
 const oCategoria = document.querySelector('#m-categoria-orcamento')
+let span = document.querySelector(".span")
 
 
 let itens = [];
@@ -38,20 +39,19 @@ function openModalItem(edit = false, index = 0) {
     }
   }
 
- if (edit) {
-    sNome.value = itens[index].nome
-    sCategoria.value = itens[index].categoria
-    sMedida.value = itens[index].medida
-    sQuantidade.value = itens[index].quantidade
-    sPreco.value = itens[index].preco
-    id = index
-  } else {
-    sNome.value = ''
-    sMedida.value = ''
-    sQuantidade.value = ''
-    sPreco.value = ''
-  }
-  
+    if (edit) {
+        sNome.value = itens[index].nome
+        sCategoria.value = itens[index].categoria
+        sMedida.value = itens[index].medida
+        sQuantidade.value = itens[index].quantidade
+        sPreco.value = itens[index].preco
+        id = index
+      } else {
+        sNome.value = ''
+        sMedida.value = ''
+        sQuantidade.value = ''
+        sPreco.value = ''
+      }
 }
 
 function editItem(index) {
@@ -162,6 +162,8 @@ function openModalOrcamento(edit = false, index = 0) {
       modalOrcamento.classList.remove('active')
     }
   }
+  
+  total = 0
 }
 
 function insertItemOrcamento(item) {
@@ -188,15 +190,8 @@ function loadItensOrcamento() {
 
     total = total + parseFloat(item.quantidade*item.preco);
   })
-  insertTotalOrcamento()
-}
 
-function insertTotalOrcamento() {
-  let modalOrcamento = document.querySelector(".modal__orcamento")
-  let span = document.createElement('span')
-
- span.innerHTML = `
-    <br>Total: R$${total.toFixed(2)}
+  span.innerHTML = `
+    Total: R$ ${total.toFixed(2)}
   `
-  modalOrcamento.appendChild(span)
 }

@@ -1,6 +1,7 @@
-// Para cadastrar um usuario "falso para testes" e pegar ele do local storange,
-//  o ideal é a pagina cadastro já armazenar ele lá quando tiver tudo junto
-function salvarUsuarioNavegador() {
+function compararDados() {
+    let email = document.querySelector("#email")
+    let senha1 = document.querySelector("#nova-senha")
+    let senha2 = document.querySelector("#confirmar-senha")
 
       const usuario = {
         nomeCad: nome.value,
@@ -59,7 +60,8 @@ function salvarUsuarioNavegador() {
           e.preventDefault()
           compararDados()
       })
-  
-  }
-  
-  Enviar()
+      
+    
+}
+
+Enviar()

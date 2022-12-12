@@ -10,7 +10,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 O diagrama apresentado abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue.
 
-![Exemplo de UserFlow](img/userflow.png)
+![Exemplo de UserFlow](img/user-flow.png)
 
 <br />
 

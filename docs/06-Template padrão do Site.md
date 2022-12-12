@@ -10,13 +10,13 @@ Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com
 ![Página Inicial - Parte 2](../docs/img/telaInicial-2.png)
 <p align="center">Figura 2: Página Inicial - Parte 1</p>
 
-![Página de Login](../docs/img/.png)
+![Página de Login](../docs/img/telaLogin.png)
 <p align="center">Figura 3: Página de Login</p>
 
-![Página de Cadastro](../docs/img/.png)
+![Página de Cadastro](../docs/img/telaCadastro.png)
 <p align="center">Figura 4: Página de Cadastro</p>
 
-![Página de Recuperação de Senha](../docs/img/.png)
+![Página de Recuperação de Senha](../docs/img/telaRecSenha.png)
 <p align="center">Figura 5: Página de Recuperação de Senha</p>
 
 ![Página de Adicionar e Editar Item](../docs/img/telaOrcamento.png)

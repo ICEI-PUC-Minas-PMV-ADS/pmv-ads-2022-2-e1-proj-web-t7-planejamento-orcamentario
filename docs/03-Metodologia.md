@@ -119,6 +119,6 @@ Para organização de cada etapa das tarefas e o status da mesma utilizamos as d
        - 2.2.2 As ferramentas utilizadas foi o Google Docs, Figma, GitHub e Visual Studio Code.
    - 2.3 *Evidências*
        - 2.3.1 Programação das demais funcionalidades: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/tree/main/src
-       - 2.3.2 Plano de Testes de Software: 
-       - 2.3.3 Registro de Testes de Software: 
+       - 2.3.2 Plano de Testes de Software: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/08-Plano%20de%20Testes%20de%20Software.md
+       - 2.3.3 Registro de Testes de Software: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t7-planejamento-orcamentario/blob/main/docs/09-Registro%20de%20Testes%20de%20Software.md
        - 2.3.4 

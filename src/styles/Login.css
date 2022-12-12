@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -56,16 +57,22 @@ body {
 }
 
 .card {
-    background-color: #ffffff80;
+    background-color: #ffffffd6;
     padding: 30px;
     border-radius: 4%;
-    box-shadow: 3px 3px 1px 0px #00000060
+    box-shadow: 3px 3px 1px 0px #46494960
 }
 
-h1 {
+.card > h1 {
+    text-align: center;
+    color: rgb(34, 160, 160);
+
+}
+
+header> h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #272262
+    color: #ffffff
 }
 
 .label-float input {
@@ -73,7 +80,7 @@ h1 {
     padding: 5px 5px;
     display: inline-block;
     border: 0;
-    border-bottom: 2px solid #272262;
+    border-bottom: 2px solid rgb(34, 160, 160);
     background-color: transparent;
     outline: none;
     min-width: 180px;
@@ -91,16 +98,16 @@ h1 {
 }
 
 .label-float input:focus {
-    border-bottom: 2px solid #4038a0;
+    border-bottom: 2px solid #107d2c;
 }
 
 .label-float label {
-    color: #272262;
+    color: rgb(34, 160, 160);
     pointer-event: none;
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 13px;
+    margin-top: 6px;
     transition: all .3s ease-out;
 }
 
@@ -108,25 +115,30 @@ h1 {
 .label-float input:valid+label {
     font-size: 13px;
     margin-top: 0;
-    color: #4038a0
+    color: rgb(34, 160, 160);
 }
 
 button {
-    background-color: transparent;
-    border-color: #272262;
-    color: #272262;
-    padding: 7px;
-    font-weight: bold;
+    padding: 4px 100px; 
     font-size: 12pt;
-    margin-top: 20px;
+    font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
     outline: none;
     transition: all .4s ease-out;
+    box-shadow: 3px 3px 1px 0px #38373754;
+    background-color: transparent;
+    border: 2px solid rgb(34, 160, 160);
+    color: rgb(34, 160, 160);
+    margin-top: 2.3rem;
+    margin-bottom: -20px;
+    margin
+    transition: all .4s ease-out;
+    
 }
 
 button:hover {
-    background-color: #272262;
+    background-color: rgb(34, 160, 160);
     color: #fff;
 }
 
@@ -138,24 +150,23 @@ button:hover {
 hr {
     margin-top: 10%;
     margin-bottom: 10%;
-    width: 60%;
 }
 
 p {
-    color: #272262;
-    font-size: 14pt;
+    color: rgb(34, 160, 160);
+    font-size: 13pt;
     text-align: center;
 }
 
 a {
-    color: #7a3077;
+    color: rgb(34, 160, 160);
     font-weight: bold;
     text-decoration: none;
     transition: all .3s ease-out;
 }
 
 a:hover {
-    color: #272262;
+    color: rgb(34, 160, 160);
 }
 
 .fa-eye {
@@ -163,7 +174,7 @@ a:hover {
     top: 15px;
     right: 10px;
     cursor: pointer;
-    color: #272262;
+    color: rgb(34, 160, 160);
 }
 
 #msgError {
