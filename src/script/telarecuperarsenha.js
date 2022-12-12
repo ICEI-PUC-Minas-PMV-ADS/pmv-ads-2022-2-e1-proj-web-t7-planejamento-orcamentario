@@ -21,7 +21,7 @@ function compararDados() {
         let usuarioString = JSON.stringify(usuarios)
         localStorage.setItem("listaUser", usuarioString)
         alert("Senha alterada com sucesso")
-        window.location.href = "../pages/login.html"
+        window.location.href = "../pages/Login.html"
     }
 }
 
