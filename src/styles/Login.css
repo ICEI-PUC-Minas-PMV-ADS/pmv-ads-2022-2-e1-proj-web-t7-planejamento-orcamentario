@@ -103,7 +103,7 @@ header> h1 {
 
 .label-float label {
     color: rgb(34, 160, 160);
-    pointer-event: none;
+    pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;

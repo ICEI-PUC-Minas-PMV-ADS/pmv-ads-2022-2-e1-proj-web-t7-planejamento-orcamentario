@@ -2,6 +2,8 @@
 
 <a href="../docs/10-Apresentação do Projeto.md"> Orientações sobre os artefatos de apresentação do projeto</a>
 
-Faça uma apresentação resumida de todo o projeto, desde a contextualização até a solução final desenvolvida, usando um pequeno vídeo.
+O vídeo de apresentação das funcionalidades e o pdf da apresentação podem ser vistos clicando sobre as imagens abaixo.
 
-Faça o upload do arquivo de vídeo e dos slides usados na apresentação no formato PDF (caso tenha feito uso de slides).
+<a href="https://youtu.be/FHNTD9Ar2Uk"><img alt="Vídeo demonstrando as funcionalidades da aplicação" src="../docs/img/youtube-logo.png" width="150px"></a>
+
+<a href="apresentação-do-projeto.pdf"><img alt="Vídeo demonstrando as funcionalidades da aplicação" src="../docs/img/pdf.png" width="80px" height="80px"></a>
