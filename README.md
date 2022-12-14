@@ -12,7 +12,6 @@ O projeto em desenvolvimento tem como principal foco os Microempreendedores Indi
 ## Integrantes
 
 * Daniel Felipe da Fonseca
-* Guilherme Dcarlo Pires Carneiro
 * Iane Victoria dos Santos Oliveira
 * Lucas Bebiano Xavier
 * Milleny Ellen Jodas Ferreira
