@@ -6,4 +6,4 @@ O vídeo de apresentação das funcionalidades e o pdf da apresentação podem s
 
 <a href="https://youtu.be/zUX4dyuAqEA"><img alt="Vídeo demonstrando as funcionalidades da aplicação" src="../docs/img/youtube-logo.png" width="150px"></a>
 
-<a href="apresentação-do-projeto.pdf"><img alt="Vídeo demonstrando as funcionalidades da aplicação" src="../docs/img/pdf.png" width="80px" height="80px"></a>
+<a href="apresentação-projeto.pdf"><img alt="Slide da apresentação" src="../docs/img/pdf.png" width="80px" height="80px"></a>
